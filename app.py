@@ -1,19 +1,3 @@
-import streamlit as st
-import pandas as pd
-import numpy as np
-import re
-!pip install tensorflow
-import tensorflow as tf
-from nltk.corpus import stopwords
-from nltk.stem import PorterStemmer
-from keras.models import load_model
-from transformers import BertTokenizer, TFBertForSequenceClassification
-from tensorflow.keras.preprocessing.sequence import pad_sequences
-from tensorflow.keras.preprocessing.text import Tokenizer
-import matplotlib.pyplot as plt
-import string
-import re
-
 
 # Encode labels
 label_mapping = {
