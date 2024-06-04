@@ -1,15 +1,11 @@
-import tensorflow_text as text
 import streamlit as st
 import pandas as pd
 import numpy as np
 import re
 import tensorflow as tf
-import nltk
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 from keras.models import load_model
-from spellchecker import SpellChecker
-from sklearn.model_selection import train_test_split
 from transformers import BertTokenizer, TFBertForSequenceClassification
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.preprocessing.text import Tokenizer
